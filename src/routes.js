@@ -2,10 +2,6 @@ import Home from "./pages/Home.svelte";
 import About from "./pages/About.svelte";
 import ErrorPage from "./pages/ErrorPage.svelte";
 
-function isAdmin() {
-  // route guard
-}
-
 const routes = [
   {
     name: "/",

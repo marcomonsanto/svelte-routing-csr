@@ -21,8 +21,8 @@
 </style>
 
 <script>
-  import { Router } from "svelte-router-spa";
-  import { routes } from "./routes.js";
+  import { Router } from "svelte-router-spa"; // Add this line
+  import { routes } from "./routes.js"; // Add this line
 
   export let name;
 </script>
@@ -34,7 +34,10 @@
     <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
     to learn how to build Svelte apps.
   </p>
+  <!-- Add this line -->
   <a href="/home">Home</a>
+  <!-- Add this line -->
   <a href="/about">About</a>
+  <!-- Add this line -->
   <Router {routes} />
 </main>
